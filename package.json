@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "https://vvhacker007.github.io/Portfolio/",
+  "homepage": "https://Sanket-09.github.io/Portfolio/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
