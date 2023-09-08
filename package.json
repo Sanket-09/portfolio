@@ -4,6 +4,7 @@
   "homepage": "https://Sanket-09.github.io/portfolio/",
   "version": "1.0.0",
   "scripts": {
+    "precommit": "lint-staged",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -57,11 +58,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+
   "lint-staged": {
     "*.json": "prettier-package-json --write",
     "*.{js,css,md}": "prettier --write"
